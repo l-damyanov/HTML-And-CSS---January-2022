@@ -1,0 +1,11 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav li {
+    display: inline-block;
+}

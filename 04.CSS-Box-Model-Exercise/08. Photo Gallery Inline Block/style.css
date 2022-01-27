@@ -1,0 +1,16 @@
+ul.gallery {
+    border-width: 0.4em;
+    border-color: black;
+    border-style: solid;
+}
+
+ul.gallery li {
+    display: inline-block;
+}
+
+ul.gallery li img {
+    border-width: 0.4em;
+    border-color: black;
+    border-style: solid;
+    align-items: center;
+}

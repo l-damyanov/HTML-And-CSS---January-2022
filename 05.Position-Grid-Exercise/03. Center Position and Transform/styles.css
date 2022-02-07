@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.card {
+    background-color: rgb(255, 255, 255) ;
+    width: 367px;
+    height: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+
+.card img {
+    position: absolute;
+    width: 367px;
+    height: 244.5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+div.first {
+    position: relative;
+    min-height: 244.5px;
+}
+
+div.second {
+    position: relative;
+}
+
+div.second button {
+    position: absolute;
+    right: 10%;
+    bottom: -100%;
+    padding: 6px 12px;
+    background-color: green;
+    color: #fff;
+    border: none;
+}

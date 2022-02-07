@@ -1,0 +1,34 @@
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+
+.viewport {
+    height: 100vh;
+    position: relative;
+}
+
+.viewport:first-child {
+    background-image: linear-gradient(to right,blue, lightgreen);
+}
+
+.viewport:last-of-type {
+    background-image: linear-gradient(to right, purple, orange);
+}
+
+.viewport .card {
+    display: block;
+    width: 40vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.viewport .card img {
+    width: 100%;
+}
+
+.viewport .card i {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    color: #fff;
+}

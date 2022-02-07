@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+header.first {
+    padding: 12px;
+    border-bottom: solid 2px black;
+}
+
+header.first ul {
+    margin-left: 70%;
+}
+
+header.first ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header.first ul li a {
+    float: right;
+    color: rgb(0, 102, 0);
+}
+
+
+#site-title {
+    margin: 0;
+    float: left;
+    font-size: 54px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    border: solid 2px black;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+    position: relative;
+    margin: 6px;
+}
+
+img.first {
+
+    float: right;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+}
+
+img.second {
+    float: left;
+}
+
+p {
+    font-size: 24px;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    border-left: solid 1px lightgray;
+    position: relative;
+    float: left;
+}
+
+aside ul li a {
+    color: rgb(0, 102, 0);
+}

@@ -1,0 +1,190 @@
+* {
+  color: #fff;
+}
+
+.grid__container {
+  position: relative;
+  z-index: 1;
+  background-color: #1e1e1e;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-auto-rows: 1fr;
+
+  grid-template-areas:
+  ". . . . . . . ."
+  ". heading heading heading heading heading . ."
+  ". heading heading heading heading heading . ."
+  ". heading heading heading heading heading join ."
+  ". karen__img karen__img . about about . grey__square"
+  ". karen__img karen__img . testimonial__img testimonial__svg testimonial__svg ."
+  ". karen__text . trailer__img . testimonial__text . ."
+  ". . . trailer__text . . . ."
+  ;
+}
+
+.heading {
+  grid-area: heading;
+}
+
+.heading h2 {
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  opacity: 0.5;
+  border-left: 1px solid #ffffff;
+  padding-left: 1rem;
+  padding-bottom: 16px;
+}
+
+.heading h1 {
+  font-weight: 600;
+  font-size: 170px;
+  line-height: 140px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+.join {
+  grid-area: join;
+  aspect-ratio: 1 / 1;
+  background-color: #FEBE02;
+  position: relative;
+  padding: 4px;
+}
+
+.join h2 {
+  color: black;
+  font-size: 50px;
+  line-height: 56px;
+  margin-top: 30%;
+  font-weight: bold;
+}
+
+.join svg {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -25%;
+  right: -25%;
+  z-index: -1;
+}
+
+.karen__img {
+  grid-area: karen__img;
+  aspect-ratio: 1;
+}
+
+.karen__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about {
+  grid-area: about;
+}
+
+.about h2 {
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  opacity: 0.5;
+  border-left: 2px solid #ffffff;
+  padding-left: 1.2rem;
+}
+
+.about p {
+  font-size: 20px;
+  line-height: 39px;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.grey__square {
+  grid-area: grey__square;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.12;
+  aspect-ratio: 1;
+}
+
+.karen__text {
+  grid-area: karen__text;
+}
+
+.karen__text h3 {
+  font-size: 28px;
+  padding-top: 10px;
+  letter-spacing: 1.5px;
+}
+
+.karen__text p {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  opacity: 0.5;
+  padding-top: 10px;
+}
+
+.testimonial__img {
+  grid-area: testimonial__img;
+  aspect-ratio: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonial__svg {
+  grid-area: testimonial__svg;
+  width: 100%;
+  height: 240px;
+  background-color: rgb(41, 41, 41);
+}
+
+.testimonial__text {
+  grid-area: testimonial__text;
+}
+
+.testimonial__text h3 {
+  font-size: 28px;
+  padding-top: 10px;
+  letter-spacing: 1.5px;
+}
+
+.testimonial__text p {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  opacity: 0.5;
+  padding-top: 10px;
+}
+
+.trailer__img {
+  grid-area: trailer__img;
+  aspect-ratio: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.trailer__text {
+  grid-area: trailer__text;
+}
+
+.trailer__text h3 {
+  font-size: 28px;
+  padding-top: 10px;
+  letter-spacing: 1.5px;
+}
+
+.trailer__text p {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  opacity: 0.5;
+  padding-top: 10px;
+}

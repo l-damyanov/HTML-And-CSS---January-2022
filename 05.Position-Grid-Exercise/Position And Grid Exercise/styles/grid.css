@@ -11,19 +11,51 @@
   grid-auto-rows: 1fr;
 
   grid-template-areas:
-  ". . . . . . . ."
+  ". . . navigation navigation navigation navigation ."
   ". heading heading heading heading heading . ."
   ". heading heading heading heading heading . ."
   ". heading heading heading heading heading join ."
   ". karen__img karen__img . about about . grey__square"
-  ". karen__img karen__img . testimonial__img testimonial__svg testimonial__svg ."
+  "karen__svg karen__img karen__img . testimonial__img testimonial__svg testimonial__svg ."
   ". karen__text . trailer__img . testimonial__text . ."
   ". . . trailer__text . . . ."
   ;
 }
 
+.navigation {
+  grid-area: navigation;
+}
+
 .heading {
   grid-area: heading;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 188px;
+  float: left;
+  height: 100%;
+}
+
+.navigation ul li {
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+  /* opacity: 0.5; */
+}
+
+.navigation ul li a.h-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.navigation ul li a:hover {
+  opacity: 1;
 }
 
 .heading h2 {
@@ -68,6 +100,7 @@
   top: -25%;
   right: -25%;
   z-index: -1;
+  opacity: 0.5;
 }
 
 .karen__img {
@@ -79,6 +112,16 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.karen__svg {
+  grid-area: karen__svg;
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
 }
 
 .about {

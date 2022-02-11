@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(238, 238, 238)
+}
+
+.cards-layout.masonry {
+    float: left;
+    width: 320px;
+    height: 600px;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 320px 320px 320px;
+}
+
+.cards-layout.masonry div {
+    background-color: white;
+    width: auto;
+    max-height: auto;
+    box-shadow: 4px 4px 4px gray;
+}
+
+.first {
+    height: 420px;
+}
+
+div p {
+    font-size: 20px;
+}
+
+div footer {
+    border-top: 1px solid black;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.second {
+    height: 510px;
+}
+
+.third {
+    height: 610px;
+}
+
+.fourth {
+    height: 500px;
+    margin-top: -55%;
+}
+
+.fifth {
+    margin-top: -30%;
+    height: 420px;
+}
+
+.sixth {
+    height: 510px;
+}
+
+.seventh {
+    margin-top: -55%;
+    height: 610px;
+}
+
+.eighth {
+    margin-top: -55%;
+    height: 500px;
+}
+
+#second-title {
+    margin-top: 86%;
+}
+
+.cards-layout.flex {
+    display: flex;
+    /* float: left; */
+    width: 1000px;
+    height: 600px;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.cards-layout.flex div {
+    margin-top: 20px;
+    background-color: white;
+    width: 320px;
+    height: 720px;
+    box-shadow: 4px 4px 4px gray;
+}

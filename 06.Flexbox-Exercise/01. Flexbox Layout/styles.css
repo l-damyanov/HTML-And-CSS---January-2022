@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;    
+    flex-wrap: wrap;
+}
+
+header, main, aside, footer {
+    box-shadow: 2px 2px lightgray;
+    padding: 2px;
+
+}
+
+header, footer {
+    width: 100%;
+}
+
+main {
+    width: calc(70% - 6px);
+}
+
+aside {
+    width: calc(30% - 2px);
+}

@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    max-width: 65vw;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.notes {
+    flex-direction: column;
+    width: 30%;
+}
+
+.week {
+    flex-wrap: wrap;
+    width: 70%;
+    text-align: center;
+}
+
+.week .workweek, .week .weekend {
+    width: 100%;
+    padding: 24px;
+}
+
+.week span {
+    width: calc(71.3% / 5);
+    padding: 24px;
+}
+
+.week .weekend-span {
+    width: calc(88.5% / 2);
+}
+
+.notes span {
+    text-align: center;
+    width: 100%;
+    min-height: 134px;
+}

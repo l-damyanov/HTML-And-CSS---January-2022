@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    background-color: lightgray;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 42px;
+}
+
+li {
+    display: flex;
+    min-width: 300px;
+    min-height: 200px;
+}
+
+img {
+    width: 100%;
+    background-color: white;
+    border: solid 2px black;
+    padding: 12px;
+}

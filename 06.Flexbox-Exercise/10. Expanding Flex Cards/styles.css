@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    gap: 12px;
+}
+
+.container .inactive {
+    width: 10%;
+    border-radius: 12px;
+    box-shadow: rgb(119, 119, 119) 4px 4px 4px 4px;
+}
+
+.container .active {
+    width: 40%;
+    border-radius: 12px;
+    box-shadow: rgb(119, 119, 119) 4px 4px 4px 4px;
+}

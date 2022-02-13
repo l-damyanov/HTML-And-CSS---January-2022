@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+header p {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1400px 1vw;
+    gap: 12px;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    padding: 6px;
+    position: relative;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+    margin: 6px;
+}
+
+.first_img {
+    float: right;
+}
+
+.secong_img {
+    float: left;
+}
+
+p {
+    position: relative;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    border-left: solid 1px lightgray;
+    position: relative;
+    padding: 8px;
+    float: left;
+}
+
+.author_name {
+    float: right;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}

@@ -1,0 +1,66 @@
+@import url(reset.css);
+@import url(typography.css);
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-weight: 550;
+    padding: 8px;
+    table-layout: fixed;
+}
+
+table .first_row {
+    text-align: left;
+    color: #fff;
+    background-color: rgb(47, 47, 47);
+    grid-area: "first_row";
+}
+
+table .second_row {
+    background-color: lightgray;
+}
+
+@media screen and (max-width: 740px) {
+    table, th, td, tr { 
+		display: block; 
+	}
+
+    tr:first-of-type {
+        position: absolute;
+		top: -9999px;
+		left: -9999px;
+    }
+
+    tr { 
+        border: 1px solid #ccc; 
+        width: 100vw;
+    }
+
+    td {
+        border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%;
+    }
+
+    td::before {
+        position: absolute;
+        top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    table, th, td {
+        font-weight: 550;
+        padding: 8px;
+        font-size: 24px;
+    }
+}

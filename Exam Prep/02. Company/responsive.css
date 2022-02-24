@@ -1,0 +1,47 @@
+@media screen and (max-width: 600px) {
+    .main-nav {
+        display: none;
+    }
+
+    .hero-head {
+        background-image: none;
+        background-color: black;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .wrapper h1 {
+        text-align: center;
+        font-size: 48px;
+        float: none;
+        line-height: 72px;
+    }
+
+    .wrapper .goal {
+        float: none;
+        text-align: center;
+        max-width: 100%;
+        line-height: 44px;
+    }
+
+    .content.bordered .content-wrap {
+        flex-wrap: wrap;
+    }
+
+    .content.bordered .content-wrap .col {
+        text-align: center;
+    }
+
+    .main-foot .wrapper {
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .copyright {
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,62 @@
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+
+html {
+    font-family: Lato, sans-serif;
+    padding: 1rem;
+}
+
+h1, h2, h3 {
+    font-family: Montserrat, sans-serif;
+}
+
+.calendar {
+    /* max-width: 800px; */
+    margin-inline: auto;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.calendar__topbar {
+    background-color: #ffa200;
+    padding: 0.75rem;
+    color: #fff;
+}
+
+.calendar__topbar span {
+    margin-left: .5rem;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.events {
+    list-style: none;
+    -webkit-box-shadow: 0px 0px 30px -18px rgba(0,0,0,0.64); 
+    box-shadow: 0px 0px 30px -18px rgba(0,0,0,0.64);
+}
+
+.event {
+    padding: 1.5rem 1rem 3rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.event .event__time {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.event a {
+    text-decoration: none;
+    color: black;
+}
+
+.event .event__title {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.event .event__description {
+    line-height: 1.4;
+}
